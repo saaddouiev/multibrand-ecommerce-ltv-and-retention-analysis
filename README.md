@@ -1,6 +1,7 @@
+<img width="1327" height="748" alt="IMG_6161" src="https://github.com/user-attachments/assets/37286cb6-1c6d-4a54-97d9-d4fc1dc66157" />
 # Multibrand-ecommerce-retention-and-LTV-analysis
 
-This is a 6-brand Shopify store selling repeat-purchase consumables, some brands in home care, others in skin/body care.
+This is a 5-brand Shopify store selling repeat-purchase consumables, some brands in home care, others in skin/body care.
 
 ## The Question
 
@@ -22,19 +23,25 @@ Data was pulled from 7 raw CSV exports, merged and cleaned in Python (pandas), t
 
 ### 1. Retention has a hard ceiling
 
+<img width="1327" height="748" alt="IMG_6161" src="https://github.com/user-attachments/assets/2036f97e-6d8a-48d3-b666-e41d6fdd74cc" />
+
 23% cumulative retention (2nd order+), 11% per-period ceiling across all cohorts. January cohort: 21k new customers vs. 5–6.5k other months, yet worst immediate retention.
 
 ### 2. Discounts buy dependency, not loyalty
 
 Discount and full-price acquired customers retain at the same rate (23%). But discount-acquired returners use a discount on 52% of return orders vs. ~17% for full-price €43,084 in excess margin over 5 months.
 
+<img width="1330" height="746" alt="IMG_6160" src="https://github.com/user-attachments/assets/f05fa23c-f787-413e-b3b7-7df0ed93b2a2" />
+
 ### 3. Retention and value aren't the same lever
 
-Fresh retains best (48%) but has the lowest LTV multiplier (1.05x); marvel retains worst (15–16%) but has the highest (2.71x).
+Brauzz retains best (48%) but has the lowest LTV multiplier (1.05x), wondr retains worst (15–16%) but has the highest (2.71x).
 
-### 4. First purchase predicts return
+### 4. The products that sell the most aren't the products that bring customers back
 
-Skincare retains at 40–48%, shampoo bars 26–28%, razor kits 5–14%. Retained customers are worth 2.4x a one-timer (€140 vs. €58).
+<img width="1327" height="754" alt="IMG_6159" src="https://github.com/user-attachments/assets/8f1e2e9e-b4f9-44ad-8495-0aace70688d5" />
+
+Best-retaining products (Hero Gateway, >35% retention) drive only 17.6% of first purchases, but retain customers at 48.95%. Worst-performing products retain under 15%, yet account for the largest single share of acquisitions.
 
 ## The Insight
 
@@ -44,9 +51,9 @@ Skincare retains at 40–48%, shampoo bars 26–28%, razor kits 5–14%. Retaine
 
 | Priority | Recommendation | Stakeholder Team |
 |---|---|---|
-| 1 | Lean acquisition toward high-retention first-order profiles (e.g. skincare SKUs) over products that convert easily but retain poorly (razor kits) | Marketing |
+| 1 | Shift acquisition spend and placement toward Hero Gateway products — the ones that retain — instead of the volume drivers that convert easily but retain poorly | Marketing |
 | 2 | Reconsider discount-based acquisition, it doesn't improve retention, just adds a recurring margin cost | Marketing/Finance |
-| 3 | Run two strategies, not one: bundle fresh/marlv/klean since customers already cross-shop them; fix marvel and mighty’s retention separately, starting with marvel, its customers are worth 2.7x more once retained | Leadership |
+| 3 | Run two strategies, not one: bundle brauzz/wondr/klaar since customers already cross-shop them; fix wondr and powr’s retention separately, starting with wondr, its customers are worth 2.7x more once retained | Leadership |
 
 ## Limitations & Scope
 
@@ -56,8 +63,5 @@ Skincare retains at 40–48%, shampoo bars 26–28%, razor kits 5–14%. Retaine
 
 ## Tools
 
-Python (Pandas), PostgreSQL, Power BI for the interactive dashboard (screen recording, provided in place of a hosted publish, due to Power BI Service publishing limitations).
+Python (Pandas), PostgreSQL, Power BI for the interactive dashboard (screenshots, provided in place of a hosted publish, due to Power BI Service publishing limitations).
 
-## Repo Structure
-
-```
