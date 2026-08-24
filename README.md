@@ -1,4 +1,3 @@
-<img width="1327" height="748" alt="IMG_6161" src="https://github.com/user-attachments/assets/37286cb6-1c6d-4a54-97d9-d4fc1dc66157" />
 # Multibrand-ecommerce-retention-and-LTV-analysis
 
 This is a 5-brand Shopify store selling repeat-purchase consumables, some brands in home care, others in skin/body care.
