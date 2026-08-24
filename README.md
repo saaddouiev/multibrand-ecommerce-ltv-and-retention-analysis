@@ -28,7 +28,7 @@ Data was pulled from 7 raw CSV exports, merged and cleaned in Python (pandas), t
 
 ### 2. Discounts buy dependency, not loyalty
 
-Discount and full-price acquired customers retain at the same rate (23%). But discount-acquired returners use a discount on 52% of return orders vs. ~17% for full-price €43,084 in excess margin over 5 months.
+Discount and full-price acquired customers retain at the same rate (23%). But discount-acquired returners use a discount on 52% of return orders vs. 17% for full-price €43,084 in excess margin over 5 months.
 
 <img width="1330" height="746" alt="IMG_6160" src="https://github.com/user-attachments/assets/f05fa23c-f787-413e-b3b7-7df0ed93b2a2" />
 
@@ -50,13 +50,13 @@ Best-retaining products (Hero Gateway, >35% retention) drive only 17.6% of first
 
 | Priority | Recommendation | Stakeholder Team |
 |---|---|---|
-| 1 | Shift acquisition spend and placement toward Hero Gateway products — the ones that retain — instead of the volume drivers that convert easily but retain poorly | Marketing |
+| 1 | Shift acquisition spend and placement toward Hero Gateway products, the ones that retain, instead of the volume drivers that convert easily but retain poorly | Marketing |
 | 2 | Reconsider discount-based acquisition, it doesn't improve retention, just adds a recurring margin cost | Marketing/Finance |
 | 3 | Run two strategies, not one: bundle brauzz/wondr/klaar since customers already cross-shop them; fix wondr and powr’s retention separately, starting with wondr, its customers are worth 2.7x more once retained | Leadership |
 
 ## Limitations & Scope
 
-- No traffic, marketing, or session-level data exists for this dataset — retention/LTV is the only analyzable pillar, and no funnel or acquisition-channel claims are made.
+- No traffic, marketing, or session-level data exists for this dataset, retention/LTV is the only analyzable pillar, and no funnel or acquisition-channel claims are made.
 - `planet_x` and one misattributed supplier record are excluded from all brand-level analysis (see `99_supporting_context.sql`).
 - All findings are descriptive/predictive rather can causal.
 
