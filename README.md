@@ -22,7 +22,8 @@ Data was pulled from 7 raw CSV exports, merged and cleaned in Python (pandas), t
 
 ### 1. Retention has a hard ceiling
 
-<img width="1327" height="748" alt="IMG_6161" src="https://github.com/user-attachments/assets/2036f97e-6d8a-48d3-b666-e41d6fdd74cc" />
+<img width="1330" height="747" alt="Page1V2" src="https://github.com/user-attachments/assets/58db8c51-0bb6-46c3-aca5-c2082f218d5c" />
+
 
 23% cumulative retention (2nd order+), 11% per-period ceiling across all cohorts. January cohort: 21k new customers vs. 5–6.5k other months, yet worst immediate retention.
 
@@ -30,7 +31,8 @@ Data was pulled from 7 raw CSV exports, merged and cleaned in Python (pandas), t
 
 Discount and full-price acquired customers retain at the same rate (23%). But discount-acquired returners use a discount on 52% of return orders vs. 17% for full-price €43,084 in excess margin over 5 months.
 
-<img width="1330" height="746" alt="IMG_6160" src="https://github.com/user-attachments/assets/f05fa23c-f787-413e-b3b7-7df0ed93b2a2" />
+<img width="1327" height="747" alt="Page2V2" src="https://github.com/user-attachments/assets/e1e2ada9-ac9d-4720-af58-cde4b4b8b870" />
+
 
 ### 3. Retention and value aren't the same lever
 
@@ -38,7 +40,7 @@ Brauzz retains best (48%) but has the lowest LTV multiplier (1.05x), wondr retai
 
 ### 4. The products that sell the most aren't the products that bring customers back
 
-<img width="1327" height="754" alt="IMG_6159" src="https://github.com/user-attachments/assets/8f1e2e9e-b4f9-44ad-8495-0aace70688d5" />
+<img width="1329" height="751" alt="PAge3V2" src="https://github.com/user-attachments/assets/225d4e39-d6e2-4cc2-9074-045ff3fe5df1" />
 
 Best-retaining products (Hero Gateway, >35% retention) drive only 17.6% of first purchases, but retain customers at 48.95%. Worst-performing products retain under 15%, yet account for the largest single share of acquisitions.
 
