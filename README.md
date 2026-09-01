@@ -1,10 +1,10 @@
 # Multibrand-ecommerce-retention-and-LTV-analysis
 
-This is a 5-brand Shopify store selling repeat-purchase consumables, some brands in home care, others in skin/body care.
+This is a 5-brand Shopify store selling repeat-purchase consumables, some brands in home care, others in skin/body care. Findings were conveyed through a Power BI report.
 
 ## The Question
 
- Which moment in the customer lifecycle actually predicts whether someone comes back, and where should acquisition and margin strategy focus as a result?
+Which moment in the customer lifecycle actually predicts whether someone comes back, and where should acquisition and margin strategy focus as a result?
 
 ## Primary Metric
 
@@ -46,7 +46,7 @@ Best-retaining products (Hero Gateway, >35% retention) drive only 17.6% of first
 
 ## The Insight
 
-**The first order is the most important moment in this business** not because of what happens after it (there's no onboarding or CX data to test that), but because what a customer buys first already predicts whether they'll return. The data shows correlation between first-order profile and retention, not that changing onboarding would change the outcome.
+The first order is the most important moment in this business** not because of what happens after it (there's no onboarding or CX data to test that), but because what a customer buys first already predicts whether they'll return. The data shows correlation between first-order profile and retention, not that changing onboarding would change the outcome.
 
 ## The Recommendation
 
